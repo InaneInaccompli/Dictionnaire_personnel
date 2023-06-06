@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="pageAide.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Manuel d'utilisation</h1>
+        </header>
+        <div>
+            <h2>Sommaire</h2>
+            <ul>
+                <!--Ajouter section pour :
+                    - Chargement de fichier
+                    - Sauvegarde des données
+                    - Affichage des mots
+                -->
+                <li><a href="#creer">Créer/modifier un mot</a></li>
+                    <ul>
+                        <li>Créer</li>
+                        <li>Modifier</li>
+                    </ul>
+                <li>Supprimer un mot</li>
+                <li>Rechercher des mots</li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="creer">Créer/modifier un mot</h2>
+            <div>
+                <h3>Créer un mot</h3>
+                <p>
+                    Pour créer un mot, cliquez sur le bouton "Ajouter un mot" situé sur le côté droit de la fenêtre.<br/>
+                    <img src="imgs\AjoutMot.png"/><br/>
+                    Une fenêtre devrait apparaître (voir ci-dessus), elle est composée de deux champs de saisie :<br/>
+                    &emsp;Le premier vous laissera écrire l'orthographe du mot.<br/>
+                    &emsp;Le second est celui permettant de saisir la ou les définition(s).<br/>
+                    Sous ces champs nous pouvons apercevoir deux boutons : <br/>
+                    &emsp;Le bouton "Ajouter" qui enregistrera votre mot dans le dictionnaire.<br/>
+                    &emsp;Le bouton "Ajouter définition" vous permettra d'ajouter un autre sens au mot.<br/>
+                    Le bouton d'ajout de mot ne fonctionnera que si vous avez rempli l'orthographe du mot et que vous avez saisi <b>au moins</b> une définition.<br/>
+                    Lorsqu'un mot est saisi, sa première lettre devient une majuscule, et les autres deviennent des minuscules.
+                </p>
+                <p class="ps">
+                    PS : Le logiciel ne regarde que si vous avez saisi la première définition, si vous ajoutez des nouveaux champs de définition que vous ne remplissez pas, ils seront ignorés.
+                </p>
+            </div>
+            <div>
+                <h3>Modifier un mot</h3>
+                <p>
+                    Très similaire à la création de mot, la modification de mot affiche également une fenêtre.<br/>
+                    <img src="imgs\ModifMot.png"/><br/>
+                    Cette fenêtre a un fonction identique à la fenêtre d'ajout, seulement vous ne pouvez pas changer l'orthographe du mot modifié.<br/>
+                    Les mêmes règles que pour l'ajout de mot s'appliquent ici.<br/>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
